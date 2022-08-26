@@ -1,0 +1,17 @@
+{
+  "name": "django-webpack-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Morozyuk Daniil",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-bundle-tracker": "^1.6.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
