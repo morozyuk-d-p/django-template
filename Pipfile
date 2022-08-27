@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 django = "==4.1"
 python-decouple = "==3.6"
-django-webpack-loader = "==1.6"
 
 [dev-packages]
 

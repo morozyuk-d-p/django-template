@@ -1,22 +1,21 @@
 const path = require('path');
-const BundleTracker = require('webpack-bundle-tracker');
 
 const isDevelopment = true;
 
-module.exports = [
+module.exports = []
+
+// This is example config
+/* module.exports = [
     {
-        name: 'main',
+        name: 'example_app',
         context: __dirname,
         entry: {
-            main: './src/js/main.js'
+            main: './webpack_src/example_app/js/main.js'
         },
         output: {
-            path: path.resolve('./assets/webpack_bundles/'),
-            filename: '[name]-[fullhash].js'
+            path: path.resolve('./example_app/static/example_app/webpack_bundles/'),
+            filename: '[name].js'
         },
-        plugins: [
-            new BundleTracker({filename: './webpack-stats.json'})
-        ],
         mode: ((isDevelopment) ? 'development' : 'production'),
     }
-]
+] */
