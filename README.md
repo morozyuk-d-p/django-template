@@ -1,4 +1,4 @@
-# Django Webpack template
+# Django project template
 How to use:
 - Initialize Python environment:
 ```sh
